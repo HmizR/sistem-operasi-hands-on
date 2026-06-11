@@ -1,0 +1,320 @@
+<!DOCTYPE html><html><head>
+      <title>README</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////home/hamiz/.vscode-server/extensions/shd101wyy.markdown-preview-enhanced-0.8.30/crossnote/dependencies/katex/katex.min.css">
+      
+      
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-details{margin:0;padding:0;border:none}.markdown-preview .md-toc summary.md-toc-link-wrapper{cursor:pointer;list-style-position:outside}.markdown-preview .md-toc summary.md-toc-link-wrapper::marker{font-size:.85em}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.markdown-preview .md-toc .md-toc-link-wrapper[data-level='0']{margin-left:12px}.markdown-preview .md-toc .md-toc-link-wrapper[data-level='1']{margin-left:28px}.markdown-preview .md-toc .md-toc-link-wrapper[data-level='2']{margin-left:44px}.markdown-preview .md-toc .md-toc-link-wrapper[data-level='3']{margin-left:60px}.markdown-preview .md-toc .md-toc-link-wrapper[data-level='4']{margin-left:76px}.markdown-preview .md-toc .md-toc-link-wrapper[data-level='5']{margin-left:80px}.markdown-preview a.tag,.markdown-preview a.tag:active,.markdown-preview a.tag:link,.markdown-preview a.tag:visited,.markdown-preview span.tag:not(.token){display:inline-block;background-color:var(--vscode-badge-background,rgba(127,127,127,.18));color:var(--vscode-badge-foreground,currentColor);border-radius:2em;font-size:.85em;font-weight:500;padding:.05em .55em;line-height:1.5;white-space:nowrap;text-decoration:none;text-shadow:none;box-shadow:none;transition:background-color .12s ease,opacity .12s ease}.markdown-preview a.tag{cursor:pointer}.markdown-preview a.tag:focus,.markdown-preview a.tag:hover{background-color:var(--vscode-badge-background,rgba(127,127,127,.32));color:var(--vscode-badge-foreground,currentColor);opacity:.85;text-decoration:none;outline:0}.markdown-preview .wikilink-embed-content{border-left:3px solid var(--vscode-textBlockQuote-border,rgba(128,128,128,.3));background:var(--vscode-textBlockQuote-background,rgba(128,128,128,.05));margin:.5em 0;padding:.5em .75em;border-radius:0 3px 3px 0}.markdown-preview .wikilink-embed-content.wikilink-embed-error{border-left-color:var(--vscode-errorForeground,#cf222e);color:var(--vscode-errorForeground,#cf222e);font-style:italic;opacity:.8}.markdown-preview .wikilink-embed-content h1:first-child,.markdown-preview .wikilink-embed-content h2:first-child,.markdown-preview .wikilink-embed-content h3:first-child,.markdown-preview .wikilink-embed-content h4:first-child,.markdown-preview .wikilink-embed-content h5:first-child,.markdown-preview .wikilink-embed-content h6:first-child{margin-top:.25em}.markdown-preview .wikilink-embed-content .wikilink-embed-content{margin:.25em 0;padding:.25em .5em}.markdown-preview .block-id{display:none}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:var(--vscode-scrollbarSlider-background,rgba(150,150,150,.66));border:4px solid var(--vscode-scrollbarSlider-background,rgba(150,150,150,.66));background-clip:content-box}.scrollbar-style::-webkit-scrollbar-thumb:hover{background-color:var(--vscode-scrollbarSlider-hoverBackground,rgba(120,120,120,.66))}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:var(--vscode-scrollbarSlider-background,rgba(150,150,150,.66));border:4px solid var(--vscode-scrollbarSlider-background,rgba(150,150,150,.66));background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb:hover{background-color:var(--vscode-scrollbarSlider-hoverBackground,rgba(120,120,120,.66))}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-details{margin:0;padding:0;border:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper[data-level='0']{padding-left:0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper[data-level='1']{padding-left:16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper[data-level='2']{padding-left:32px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper[data-level='3']{padding-left:48px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper[data-level='4']{padding-left:64px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper[data-level='5']{padding-left:80px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. -->
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script>
+    </head>
+    <body for="html-export">
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="laporan-hands-on-4-threads-and-concurrency-bash--c">Laporan Hands-On 4: Threads and Concurrency (Bash &amp; C) </h1>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">NRP</th>
+<th style="text-align:center">Nama</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">5025251246</td>
+<td style="text-align:center">Hamizan Rifqi Afandi</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<p>Tujuan dari lab ini adalah untuk membantu siswa membandingkan eksekusi sekuensial dan eksekusi bersamaan dengan cara yang sederhana dan mudah dilihat. Eksekusi berurutan berarti satu tugas harus selesai sebelum tugas berikutnya dimulai. Hal ini mudah dipahami dan diprediksi, namun dapat membuang-buang waktu ketika tugas bersifat independen atau menghabiskan banyak waktu untuk menunggu. Eksekusi serentak memungkinkan beberapa tugas mengalami kemajuan selama periode waktu yang tumpang tindih.</p>
+<hr>
+<h2 id="lab-1-bash-sequential-vs-concurrent-execution">Lab 1 (Bash): Sequential vs Concurrent Execution </h2>
+<p>Segmen ini membandingkan eksekusi sekuensial (berurutan) dengan eksekusi konkuren (bersamaan) menggunakan Bash. Tujuan utamanya adalah menunjukkan bahwa tugas-tugas independen dapat dijalankan secara bersamaan untuk menghemat waktu, berbeda dengan eksekusi berurutan yang menyelesaikan satu tugas sebelum beralih ke tugas berikutnya.</p>
+<p>File <code>lab1.sh</code> mengimplementasikan sebuah fungsi <code>task()</code> yang mensimulasikan pekerjaan dengan <code>sleep 3</code> (menunggu 3 detik). Pada bagian sekuensial, fungsi dipanggil secara berurutan: <code>task A</code>, <code>task B</code>, <code>task C</code> — sehingga total waktu yang dibutuhkan sekitar 9 detik. Pada bagian konkuren, ketiga tugas dijalankan sebagai background process menggunakan <code>task A &amp;</code>, <code>task B &amp;</code>, <code>task C &amp;</code>, kemudian <code>wait</code> digunakan untuk menunggu seluruh background process selesai. Total waktu yang dibutuhkan hanya sekitar 3 detik karena ketiga tugas berjalan secara tumpang tindih.</p>
+<h3 id="kesimpulan">Kesimpulan </h3>
+<p>Dengan membandingkan eksekusi sekuensial dan konkuren, mahasiswa dapat memahami bahwa tugas-tugas independen yang tidak saling bergantung dapat dijalankan secara bersamaan untuk memanfaatkan waktu tunggu secara lebih efisien. Ini merupakan konsep fundamental dalam sistem operasi yang menjadi dasar pemahaman tentang threading dan konkurensi.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Komponen</th>
+<th style="text-align:left">Isi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Filename</td>
+<td style="text-align:left"><code>lab1.sh</code></td>
+</tr>
+<tr>
+<td style="text-align:left">Tools</td>
+<td style="text-align:left"><code>echo</code>, <code>sleep</code>, <code>&amp;</code>, <code>wait</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="snapshots-eksekusi">Snapshots Eksekusi </h3>
+<p><img src="./assets/lab1.png" alt="lab1 concurrent"></p>
+<hr>
+<h2 id="lab-2-bash-foreground-and-background-tasks">Lab 2 (Bash): Foreground and Background Tasks </h2>
+<p>Segmen ini mendemonstrasikan bagaimana sebuah sistem dapat terus berinteraksi dengan pengguna sementara tugas lain berjalan di background. Tujuan utamanya adalah menunjukkan bahwa satu alur eksekusi dapat menangani input pengguna (foreground) sementara alur eksekusi lain melakukan pekerjaan periodik (background), sehingga program tetap responsif.</p>
+<p>File <code>lab2.sh</code> mengimplementasikan dua fungsi: <code>background_task()</code> yang menjalankan loop tak terbatas dengan mencetak pesan setiap 5 detik, dan <code>foreground_task()</code> yang menerima input dari pengguna melalui <code>read -p</code> dan langsung meresponnya. <code>background_task</code> dijalankan sebagai background process dengan <code>&amp;</code>, sementara <code>foreground_task</code> dijalankan di foreground. Program dapat dihentikan dengan <code>Ctrl + C</code>. Kedua fungsi berbagi terminal yang sama, sehingga output dari background task mungkin muncul di sela-sela aktivitas mengetik pengguna.</p>
+<h3 id="kesimpulan-1">Kesimpulan </h3>
+<p>Dengan memisahkan tugas background dan foreground, mahasiswa dapat memahami bahwa konkurensi meningkatkan pengalaman pengguna karena program tetap responsif meskipun ada pekerjaan yang berjalan di belakang layar. Namun, berbagi perangkat output (terminal) tanpa koordinasi dapat menyebabkan tampilan yang kacau — ini menjadi pengantar penting tentang tantangan sinkronisasi sumber daya bersama.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Komponen</th>
+<th style="text-align:left">Isi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Filename</td>
+<td style="text-align:left"><code>lab2.sh</code></td>
+</tr>
+<tr>
+<td style="text-align:left">Tools</td>
+<td style="text-align:left"><code>echo</code>, <code>sleep</code>, <code>read -p</code>, <code>&amp;</code>, <code>while true</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="snapshots-eksekusi-1">Snapshots Eksekusi </h3>
+<p><img src="./assets/lab2.png" alt="lab2 execution"></p>
+<p><em>Catatan: Pesan "[Background] Periodic task is running..." muncul setiap 5 detik secara otomatis, sementara pengguna tetap dapat mengetikkan perintah seperti "hello" dan mendapatkan respon langsung tanpa menunggu background task selesai.</em></p>
+<hr>
+<h2 id="lab-3-bash-race-condition-on-a-shared-file">Lab 3 (Bash): Race Condition on a Shared File </h2>
+<p>Segmen ini mendemonstrasikan kondisi balapan (<em>race condition</em>) pada sebuah file bersama. Tujuan utamanya adalah menunjukkan bahwa ketika beberapa alur eksekusi mengakses dan memodifikasi data bersama secara bersamaan tanpa sinkronisasi, hasil akhir dapat menjadi tidak konsisten dan bergantung pada urutan waktu eksekusi (<em>timing</em>).</p>
+<p>File <code>lab3.sh</code> menginisialisasi file <code>counter.txt</code> dengan nilai 0. Fungsi <code>increment()</code> membaca nilai dari file (<code>cat counter.txt</code>), menambahnya dengan 1 (<code>count=$((count + 1))</code>), lalu menuliskan kembali nilai tersebut ke file (<code>echo $count &gt; counter.txt</code>). Tiga background process dipanggil secara bersamaan dengan <code>increment &amp;</code>, masing-masing menjalankan loop sebanyak 100 kali. Secara matematis, nilai akhir yang diharapkan adalah 300 (3 proses × 100 kenaikan). Namun, karena operasi baca-modifikasi-tulis tidak bersifat atomik, dua proses dapat membaca nilai yang sama sebelum salah satunya menulis kembali, menyebabkan <em>lost update</em>.</p>
+<h3 id="kesimpulan-2">Kesimpulan </h3>
+<p>Dengan menjalankan skrip beberapa kali, mahasiswa dapat mengamati bahwa nilai akhir seringkali kurang dari 300 dan bervariasi antar eksekusi. Ini membuktikan bahwa konkurensi tanpa sinkronisasi dapat merusak kebenaran data. Error ini bukan disebabkan oleh kesalahan sintaks, melainkan karena interleaving eksekusi yang tidak terduga — sebuah konsep penting dalam pemrograman konkuren.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Komponen</th>
+<th style="text-align:left">Isi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Filename</td>
+<td style="text-align:left"><code>lab3.sh</code></td>
+</tr>
+<tr>
+<td style="text-align:left">Tools</td>
+<td style="text-align:left"><code>echo</code>, <code>cat</code>, <code>&amp;</code>, <code>wait</code>, file system (<code>counter.txt</code>)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="snapshots-eksekusi-2">Snapshots Eksekusi </h3>
+<p><img src="./assets/lab3.png" alt="lab3 race condition"></p>
+<hr>
+<h2 id="lab-4-bash-fixing-race-condition-with-a-lock">Lab 4 (Bash): Fixing Race Condition with a Lock </h2>
+<p>Segmen ini memperbaiki kondisi balapan (<em>race condition</em>) dari lab sebelumnya dengan menggunakan mekanisme <em>lock</em> sederhana. Tujuan utamanya adalah menunjukkan bahwa sumber daya bersama harus dilindungi ketika diakses oleh beberapa alur eksekusi secara konkuren, dan <em>mutual exclusion</em> (saling mengecualikan) adalah kunci untuk menjaga kebenaran data.</p>
+<p>File <code>lab4.sh</code> mengimplementasikan <em>lock</em> menggunakan operasi atomik <code>mkdir</code>. Fungsi <code>increment()</code> mencoba membuat direktori <code>lockdir</code> dengan <code>mkdir "$lockdir" 2&gt;/dev/null</code>. Jika berhasil, proses tersebut "memiliki" <em>lock</em> dan dapat masuk ke <em>critical section</em> (membaca, menambah, menulis ulang counter). Jika gagal (karena direktori sudah ada), proses akan terus mencoba dalam loop <code>while ! mkdir...</code> dengan <code>sleep 0.01</code> (busy waiting sederhana) hingga <em>lock</em> tersedia. Setelah selesai mengupdate counter, proses melepaskan <em>lock</em> dengan <code>rmdir "$lockdir"</code>. Ini memastikan hanya satu proses yang dapat berada di <em>critical section</em> pada satu waktu.</p>
+<h3 id="kesimpulan-3">Kesimpulan </h3>
+<p>Dengan mekanisme <em>lock</em>, mahasiswa dapat mengamati bahwa nilai akhir counter sekarang konsisten 300 setiap kali skrip dijalankan. <em>Lock</em> mencegah <em>lost update</em> dengan memastikan operasi baca-modifikasi-tulis bersifat atomik dari perspektif proses lain. Namun, ini datang dengan konsekuensi kinerja: bagian kritis dari program menjadi terserialisasi (hanya satu proses yang dapat menjalankannya dalam satu waktu). Ini mengajarkan <em>trade-off</em> penting dalam sistem konkuren: sinkronisasi melindungi kebenaran data tetapi dapat mengurangi paralelisme.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Komponen</th>
+<th style="text-align:left">Isi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Filename</td>
+<td style="text-align:left"><code>lab4.sh</code></td>
+</tr>
+<tr>
+<td style="text-align:left">Tools</td>
+<td style="text-align:left"><code>mkdir</code>, <code>rmdir</code>, <code>cat</code>, <code>echo</code>, <code>sleep</code>, <code>&amp;</code>, <code>wait</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="snapshots-eksekusi-3">Snapshots Eksekusi </h3>
+<p><img src="./assets/lab4.png" alt="lab4 lock solution"></p>
+<p><em>Catatan: Berbeda dengan lab sebelumnya, nilai akhir sekarang selalu 300 di setiap eksekusi, menunjukkan bahwa race condition telah berhasil diatasi.</em></p>
+<hr>
+<h2 id="lab-5-bash-blocking-simulation">Lab 5 (Bash): Blocking Simulation </h2>
+<p>Segmen ini mendemonstrasikan bahwa satu tugas yang terblokir (blocked) tidak perlu menghentikan tugas lainnya. Tujuan utamanya adalah menunjukkan mengapa sistem operasi menggunakan konkurensi untuk meningkatkan responsivitas: ketika satu alur eksekusi menunggu (misalnya karena operasi I/O, timer, atau sleep), alur eksekusi lain dapat terus berjalan.</p>
+<p>File <code>lab5.sh</code> menjalankan dua tugas sebagai background process. Tugas A menjalankan <code>sleep 5</code> (simulasi operasi lambat seperti menunggu data dari jaringan atau disk), lalu mencetak "Task A completed after waiting". Tugas B menjalankan loop sebanyak 5 kali, setiap iterasi mencetak "Task B is working: step i" dan <code>sleep 1</code>. Kedua tugas dijalankan secara konkuren dengan <code>&amp;</code>, kemudian <code>wait</code> digunakan untuk menunggu keduanya selesai. Perhatikan bahwa Tugas A tidak memblokir Tugas B — Tugas B terus mencetak progres setiap detik meskipun Tugas A sedang dalam keadaan tidur (blocked).</p>
+<h3 id="kesimpulan-4">Kesimpulan </h3>
+<p>Dengan simulasi ini, mahasiswa dapat mengamati bahwa Tugas A "tidur" selama 5 detik tanpa mengganggu Tugas B yang terus bekerja. Kedua tugas selesai pada waktu yang hampir bersamaan (sekitar 5 detik). Ini menunjukkan bahwa <em>blocking bersifat lokal</em> terhadap tugas yang melakukan operasi blocking. Dalam sistem operasi nyata, ketika sebuah thread menunggu I/O, scheduler dapat menjalankan thread lain yang siap. Ini adalah alasan utama mengapa aplikasi multithread dapat tetap responsif meskipun beberapa operasi berjalan lambat.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Komponen</th>
+<th style="text-align:left">Isi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Filename</td>
+<td style="text-align:left"><code>lab5.sh</code></td>
+</tr>
+<tr>
+<td style="text-align:left">Tools</td>
+<td style="text-align:left"><code>sleep</code>, <code>echo</code>, <code>for</code> loop, <code>&amp;</code>, <code>wait</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="snapshots-eksekusi-4">Snapshots Eksekusi </h3>
+<p><img src="./assets/lab5.png" alt="lab5 blocking simulation"></p>
+<hr>
+<h2 id="lab-6-c-sequential-vs-multithread-execution">Lab 6 (C): Sequential vs Multithread Execution </h2>
+<p>Segmen ini membandingkan eksekusi fungsi secara normal (sekuensial) dengan eksekusi berbasis thread dalam bahasa C. Tujuan utamanya adalah menunjukkan bahwa fungsi-fungsi yang dipanggil secara berurutan dijalankan satu demi satu, sementara fungsi-fungsi yang diluncurkan sebagai thread dapat tumpang tindih dalam waktu (konkuren).</p>
+<p>Program <code>lab6.c</code> mengimplementasikan fungsi <code>task()</code> yang menerima nama tugas sebagai argumen, mencetak pesan mulai, tidur selama 3 detik (<code>sleep(3)</code>), lalu mencetak pesan selesai. Pada fungsi <code>main()</code>, tiga thread dibuat menggunakan <code>pthread_create()</code> untuk menjalankan task A, B, dan C secara bersamaan. Setiap thread dijalankan secara independen. <code>pthread_join()</code> digunakan untuk menunggu ketiga thread selesai sebelum program berakhir. Karena ketiga thread berjalan konkuren, total waktu eksekusi hanya sekitar 3 detik — bukan 9 detik seperti jika dipanggil secara sekuensial.</p>
+<h3 id="kesimpulan-5">Kesimpulan </h3>
+<p>Dengan program ini, mahasiswa dapat mengamati bahwa ketiga task mulai hampir bersamaan dan selesai setelah sekitar 3 detik. Pesan "Task X started" untuk A, B, dan C muncul sebelum task mana pun selesai, meskipun urutannya bisa berbeda-beda setiap kali program dijalankan. Ini menunjukkan bahwa <code>pthread_create()</code> tidak memblokir eksekusi — thread baru langsung berjalan secara konkuren dengan thread pemanggil. Ketidakpastian urutan output (nondeterminism) adalah sifat penting dari pemrograman thread: penjadwalan ditentukan oleh sistem operasi, bukan oleh programmer.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Komponen</th>
+<th style="text-align:left">Isi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Filename</td>
+<td style="text-align:left"><code>lab6.c</code></td>
+</tr>
+<tr>
+<td style="text-align:left">Tools</td>
+<td style="text-align:left"><code>pthread_create</code>, <code>pthread_join</code>, <code>sleep</code>, <code>printf</code>, GCC dengan flag <code>-pthread</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="snapshots-eksekusi-5">Snapshots Eksekusi </h3>
+<p><img src="./assets/lab6.png" alt="lab6 compile and run"></p>
+<hr>
+<h2 id="lab-7-c-background-thread-inside-one-process">Lab 7 (C): Background Thread inside One Process </h2>
+<p>Segmen ini mendemonstrasikan bagaimana satu program C dapat memiliki beberapa thread aktif dengan tanggung jawab yang berbeda. Tujuan utamanya adalah menunjukkan bahwa thread dapat dipisahkan menjadi tugas foreground dan background dalam satu proses yang sama, meningkatkan modularitas dan responsivitas program.</p>
+<p>Program <code>lab7.c</code> mengimplementasikan dua alur eksekusi dalam satu proses. Fungsi <code>background()</code> menjalankan loop tak terbatas yang mencetak pesan "[Background thread] Running periodic work..." setiap 3 detik. Di fungsi <code>main()</code>, sebuah thread background dibuat dengan <code>pthread_create(&amp;bg, NULL, background, NULL)</code>. Thread utama (main thread) kemudian menjalankan loop sebanyak 10 iterasi, setiap iterasi mencetak "[Main thread] Working step i" dan tidur selama 1 detik. Ketika fungsi <code>main()</code> selesai (setelah 10 detik), proses berakhir dan thread background otomatis berhenti. Tidak ada <code>pthread_join()</code> untuk thread background karena program sengaja membiarkannya berjalan hingga proses berakhir.</p>
+<h3 id="kesimpulan-6">Kesimpulan </h3>
+<p>Dengan program ini, mahasiswa dapat mengamati bahwa thread utama mencetak pesan setiap detik, sementara thread background mencetak pesan setiap 3 detik. Kedua output muncul bersamaan selama eksekusi program — thread background tidak mencegah thread utama untuk terus bekerja. Ini menunjukkan bahwa thread memungkinkan program distrukturisasi berdasarkan tanggung jawab independen. Namun, penting juga dicatat bahwa ketika proses berakhir (main function selesai), semua thread di dalamnya ikut berhenti. Thread adalah bagian dari proses, bukan entitas yang berdiri sendiri.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Komponen</th>
+<th style="text-align:left">Isi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Filename</td>
+<td style="text-align:left"><code>lab7.c</code></td>
+</tr>
+<tr>
+<td style="text-align:left">Tools</td>
+<td style="text-align:left"><code>pthread_create</code>, <code>sleep</code>, <code>printf</code>, <code>for</code> loop, GCC dengan flag <code>-pthread</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="snapshots-eksekusi-6">Snapshots Eksekusi </h3>
+<p><img src="./assets/lab7.png" alt="lab7 compile and run"></p>
+<hr>
+<h2 id="lab-8-c-race-condition-with-shared-variable">Lab 8 (C): Race Condition with Shared Variable </h2>
+<p>Segmen ini mendemonstrasikan kondisi balapan (<em>race condition</em>) dalam multithreading sejati menggunakan bahasa C. Tujuan utamanya adalah menunjukkan bahwa ketika beberapa thread mengakses dan memodifikasi variabel global bersama tanpa sinkronisasi, hasil akhir dapat menjadi tidak konsisten — meskipun kode yang ditulis terlihat sangat sederhana dan benar secara logika.</p>
+<p>Program <code>lab8.c</code> mendeklarasikan variabel global <code>int counter = 0</code>. Fungsi <code>increment()</code> menjalankan loop sebanyak 100.000 kali, setiap iterasi melakukan operasi <code>counter++</code> (increment). Tiga thread dibuat dengan <code>pthread_create()</code>, masing-masing menjalankan fungsi <code>increment()</code>. Setelah ketiga thread selesai (dengan <code>pthread_join()</code>), program mencetak nilai counter yang diharapkan (300.000) dan nilai aktual. Operasi <code>counter++</code> sebenarnya bukanlah operasi atomik — di tingkat mesin, operasi ini terdiri dari: (1) baca nilai counter dari memori ke register, (2) tambah register dengan 1, (3) tulis kembali nilai dari register ke memori. Dua thread yang membaca nilai yang sama sebelum salah satunya menulis akan menyebabkan <em>lost update</em>.</p>
+<h3 id="kesimpulan-7">Kesimpulan </h3>
+<p>Dengan menjalankan program beberapa kali, mahasiswa dapat mengamati bahwa nilai aktual counter hampir selalu kurang dari 300.000, dan hasilnya bervariasi setiap kali program dijalankan. Ini adalah bukti klasik dari <em>race condition</em>. Perilaku nondeterministik ini adalah yang paling penting untuk dipahami: <em>race condition</em> sulit dideteksi karena bergantung pada timing penjadwalan thread oleh sistem operasi. Program mungkin kadang terlihat "benar" (nilai mendekati 300.000), tetapi tetap salah secara fundamental karena tidak ada jaminan konsistensi. Pelajaran mendalamnya adalah bahwa <em>shared memory</em> powerful tetapi berbahaya — thread dapat berkomunikasi dengan mudah melalui memori bersama, tetapi kebenaran memerlukan sinkronisasi eksplisit.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Komponen</th>
+<th style="text-align:left">Isi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Filename</td>
+<td style="text-align:left"><code>lab8.c</code></td>
+</tr>
+<tr>
+<td style="text-align:left">Tools</td>
+<td style="text-align:left"><code>pthread_create</code>, <code>pthread_join</code>, <code>pthread_t</code>, variabel global, GCC dengan flag <code>-pthread</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="snapshots-eksekusi-7">Snapshots Eksekusi </h3>
+<p><img src="./assets/lab8.png" alt="lab8 compile and run"></p>
+<hr>
+<h2 id="lab-9-c-fix-race-condition-with-mutex">Lab 9 (C): Fix Race Condition with Mutex </h2>
+<p>Segmen ini memperbaiki kondisi balapan (<em>race condition</em>) dari lab sebelumnya menggunakan <em>mutex</em> (mutual exclusion). Tujuan utamanya adalah menunjukkan bahwa <em>shared resource</em> yang diakses oleh banyak thread harus dilindungi dengan mekanisme sinkronisasi, dan mutex adalah standar untuk memastikan hanya satu thread yang berada di <em>critical section</em> pada satu waktu.</p>
+<p>Program <code>lab9.c</code> mendeklarasikan variabel global <code>int counter = 0</code> dan sebuah mutex <code>pthread_mutex_t lock</code>. Di fungsi <code>main()</code>, mutex diinisialisasi dengan <code>pthread_mutex_init(&amp;lock, NULL)</code>. Fungsi <code>increment()</code> menjalankan loop sebanyak 100.000 kali, tetapi kali ini setiap iterasi membungkus operasi <code>counter++</code> dengan <code>pthread_mutex_lock(&amp;lock)</code> sebelum increment dan <code>pthread_mutex_unlock(&amp;lock)</code> sesudahnya. Ini memastikan bahwa operasi baca-modifikasi-tulis pada counter bersifat atomik dari perspektif thread lain — hanya satu thread yang boleh menjalankan <em>critical section</em> pada satu waktu. Thread lain yang mencoba mengunci mutex akan <em>blocked</em> (tertunda) hingga mutex tersedia. Setelah semua selesai, <code>pthread_mutex_destroy(&amp;lock)</code> membersihkan mutex.</p>
+<h3 id="kesimpulan-8">Kesimpulan </h3>
+<p>Dengan mekanisme mutex, mahasiswa dapat mengamati bahwa nilai aktual counter sekarang konsisten 300.000 setiap kali program dijalankan. Ini membuktikan bahwa sinkronasi berhasil mencegah <em>lost update</em>. Namun, penting dipahami bahwa ini datang dengan <em>trade-off</em> kinerja: operasi increment menjadi terserialisasi — hanya satu thread yang dapat mengeksekusi <code>counter++</code> pada satu waktu. Dalam sistem nyata, programmer berusaha membuat <em>critical section</em> sekecil mungkin agar thread tidak terlalu banyak menunggu. Pelajaran mendalamnya adalah sinkronisasi mengembalikan kebenaran data, tetapi perancangan yang cermat diperlukan untuk menghindari <em>locking</em> yang berlebihan yang dapat mengurangi paralelisme.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Komponen</th>
+<th style="text-align:left">Isi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Filename</td>
+<td style="text-align:left"><code>lab9.c</code></td>
+</tr>
+<tr>
+<td style="text-align:left">Tools</td>
+<td style="text-align:left"><code>pthread_mutex_t</code>, <code>pthread_mutex_init</code>, <code>pthread_mutex_lock</code>, <code>pthread_mutex_unlock</code>, <code>pthread_mutex_destroy</code>, GCC dengan flag <code>-pthread</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="snapshots-eksekusi-8">Snapshots Eksekusi </h3>
+<p><img src="./assets/lab9.png" alt="lab9 compile and run"></p>
+<hr>
+<h2 id="lab-10-c-blocking-threads">Lab 10 (C): Blocking Threads </h2>
+<p>Segmen ini mendemonstrasikan bahwa ketika satu thread terblokir (blocked), thread lain dalam proses yang sama dapat terus berjalan. Tujuan utamanya adalah memperkuat pemahaman tentang manfaat threading untuk program yang melakukan operasi lambat atau operasi yang memerlukan waktu tunggu (I/O, jaringan, timer, dll).</p>
+<p>Program <code>lab10.c</code> mengimplementasikan dua thread dengan perilaku berbeda. Fungsi <code>slow_task()</code> mensimulasikan operasi I/O yang lambat dengan mencetak "Thread A: waiting for simulated I/O...", kemudian tidur selama 6 detik (<code>sleep(6)</code>), lalu mencetak "Thread A: I/O completed". Fungsi <code>fast_task()</code> menjalankan loop sebanyak 6 iterasi, setiap iterasi mencetak "Thread B: working step i" dan tidur selama 1 detik. Di fungsi <code>main()</code>, kedua thread dibuat dengan <code>pthread_create()</code> dan dijalankan secara konkuren. <code>pthread_join()</code> digunakan untuk menunggu kedua thread selesai. Perhatikan bahwa Thread A yang terblokir (tidur selama 6 detik) tidak menghentikan Thread B — Thread B terus mencetak progres setiap detik.</p>
+<h3 id="kesimpulan-9">Kesimpulan </h3>
+<p>Dengan program ini, mahasiswa dapat mengamati bahwa Thread A mulai dengan "waiting for simulated I/O", lalu selama 6 detik berikutnya Thread B terus bekerja mencetak step 1 hingga step 6, masing-masing setiap detik. Setelah sekitar 6 detik, Thread A menyelesaikan "I/O completed" dan program berakhir. Ini membuktikan bahwa <em>blocking bersifat lokal terhadap thread yang melakukan operasi blocking</em> — sistem operasi dapat menjadwalkan thread lain yang siap (runnable) sementara satu thread sedang menunggu. Jika program ini ditulis secara single-threaded, program akan diam selama 6 detik tanpa melakukan pekerjaan apapun sebelum melanjutkan. Perbandingan ini menunjukkan keuntungan praktis utama dari multithreading: peningkatan responsivitas dan pemanfaatan waktu tunggu untuk pekerjaan produktif.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Komponen</th>
+<th style="text-align:left">Isi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Filename</td>
+<td style="text-align:left"><code>lab10.c</code></td>
+</tr>
+<tr>
+<td style="text-align:left">Tools</td>
+<td style="text-align:left"><code>pthread_create</code>, <code>pthread_join</code>, <code>sleep</code>, <code>printf</code>, <code>for</code> loop, GCC dengan flag <code>-pthread</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="snapshots-eksekusi-9">Snapshots Eksekusi </h3>
+<p><img src="./assets/lab10.png" alt="lab10 compile and run"></p>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
