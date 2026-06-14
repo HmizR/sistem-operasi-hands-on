@@ -1,0 +1,353 @@
+<!DOCTYPE html><html><head>
+      <title>README</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      
+      <link rel="stylesheet" href="file:////home/hamiz/.vscode-server/extensions/shd101wyy.markdown-preview-enhanced-0.8.30/crossnote/dependencies/katex/katex.min.css">
+      
+      
+      
+      
+      
+      
+      
+      <style>
+      code[class*=language-],pre[class*=language-]{color:#333;background:0 0;font-family:Consolas,"Liberation Mono",Menlo,Courier,monospace;text-align:left;white-space:pre;word-spacing:normal;word-break:normal;word-wrap:normal;line-height:1.4;-moz-tab-size:8;-o-tab-size:8;tab-size:8;-webkit-hyphens:none;-moz-hyphens:none;-ms-hyphens:none;hyphens:none}pre[class*=language-]{padding:.8em;overflow:auto;border-radius:3px;background:#f5f5f5}:not(pre)>code[class*=language-]{padding:.1em;border-radius:.3em;white-space:normal;background:#f5f5f5}.token.blockquote,.token.comment{color:#969896}.token.cdata{color:#183691}.token.doctype,.token.macro.property,.token.punctuation,.token.variable{color:#333}.token.builtin,.token.important,.token.keyword,.token.operator,.token.rule{color:#a71d5d}.token.attr-value,.token.regex,.token.string,.token.url{color:#183691}.token.atrule,.token.boolean,.token.code,.token.command,.token.constant,.token.entity,.token.number,.token.property,.token.symbol{color:#0086b3}.token.prolog,.token.selector,.token.tag{color:#63a35c}.token.attr-name,.token.class,.token.class-name,.token.function,.token.id,.token.namespace,.token.pseudo-class,.token.pseudo-element,.token.url-reference .token.variable{color:#795da3}.token.entity{cursor:help}.token.title,.token.title .token.punctuation{font-weight:700;color:#1d3e81}.token.list{color:#ed6a43}.token.inserted{background-color:#eaffea;color:#55a532}.token.deleted{background-color:#ffecec;color:#bd2c00}.token.bold{font-weight:700}.token.italic{font-style:italic}.language-json .token.property{color:#183691}.language-markup .token.tag .token.punctuation{color:#333}.language-css .token.function,code.language-css{color:#0086b3}.language-yaml .token.atrule{color:#63a35c}code.language-yaml{color:#183691}.language-ruby .token.function{color:#333}.language-markdown .token.url{color:#795da3}.language-makefile .token.symbol{color:#795da3}.language-makefile .token.variable{color:#183691}.language-makefile .token.builtin{color:#0086b3}.language-bash .token.keyword{color:#0086b3}pre[data-line]{position:relative;padding:1em 0 1em 3em}pre[data-line] .line-highlight-wrapper{position:absolute;top:0;left:0;background-color:transparent;display:block;width:100%}pre[data-line] .line-highlight{position:absolute;left:0;right:0;padding:inherit 0;margin-top:1em;background:hsla(24,20%,50%,.08);background:linear-gradient(to right,hsla(24,20%,50%,.1) 70%,hsla(24,20%,50%,0));pointer-events:none;line-height:inherit;white-space:pre}pre[data-line] .line-highlight:before,pre[data-line] .line-highlight[data-end]:after{content:attr(data-start);position:absolute;top:.4em;left:.6em;min-width:1em;padding:0 .5em;background-color:hsla(24,20%,50%,.4);color:#f4f1ef;font:bold 65%/1.5 sans-serif;text-align:center;vertical-align:.3em;border-radius:999px;text-shadow:none;box-shadow:0 1px #fff}pre[data-line] .line-highlight[data-end]:after{content:attr(data-end);top:auto;bottom:.4em}html body{font-family:'Helvetica Neue',Helvetica,'Segoe UI',Arial,freesans,sans-serif;font-size:16px;line-height:1.6;color:#333;background-color:#fff;overflow:initial;box-sizing:border-box;word-wrap:break-word}html body>:first-child{margin-top:0}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{line-height:1.2;margin-top:1em;margin-bottom:16px;color:#000}html body h1{font-size:2.25em;font-weight:300;padding-bottom:.3em}html body h2{font-size:1.75em;font-weight:400;padding-bottom:.3em}html body h3{font-size:1.5em;font-weight:500}html body h4{font-size:1.25em;font-weight:600}html body h5{font-size:1.1em;font-weight:600}html body h6{font-size:1em;font-weight:600}html body h1,html body h2,html body h3,html body h4,html body h5{font-weight:600}html body h5{font-size:1em}html body h6{color:#5c5c5c}html body strong{color:#000}html body del{color:#5c5c5c}html body a:not([href]){color:inherit;text-decoration:none}html body a{color:#08c;text-decoration:none}html body a:hover{color:#00a3f5;text-decoration:none}html body img{max-width:100%}html body>p{margin-top:0;margin-bottom:16px;word-wrap:break-word}html body>ol,html body>ul{margin-bottom:16px}html body ol,html body ul{padding-left:2em}html body ol.no-list,html body ul.no-list{padding:0;list-style-type:none}html body ol ol,html body ol ul,html body ul ol,html body ul ul{margin-top:0;margin-bottom:0}html body li{margin-bottom:0}html body li.task-list-item{list-style:none}html body li>p{margin-top:0;margin-bottom:0}html body .task-list-item-checkbox{margin:0 .2em .25em -1.8em;vertical-align:middle}html body .task-list-item-checkbox:hover{cursor:pointer}html body blockquote{margin:16px 0;font-size:inherit;padding:0 15px;color:#5c5c5c;background-color:#f0f0f0;border-left:4px solid #d6d6d6}html body blockquote>:first-child{margin-top:0}html body blockquote>:last-child{margin-bottom:0}html body hr{height:4px;margin:32px 0;background-color:#d6d6d6;border:0 none}html body table{margin:10px 0 15px 0;border-collapse:collapse;border-spacing:0;display:block;width:100%;overflow:auto;word-break:normal;word-break:keep-all}html body table th{font-weight:700;color:#000}html body table td,html body table th{border:1px solid #d6d6d6;padding:6px 13px}html body dl{padding:0}html body dl dt{padding:0;margin-top:16px;font-size:1em;font-style:italic;font-weight:700}html body dl dd{padding:0 16px;margin-bottom:16px}html body code{font-family:Menlo,Monaco,Consolas,'Courier New',monospace;font-size:.85em;color:#000;background-color:#f0f0f0;border-radius:3px;padding:.2em 0}html body code::after,html body code::before{letter-spacing:-.2em;content:'\00a0'}html body pre>code{padding:0;margin:0;word-break:normal;white-space:pre;background:0 0;border:0}html body .highlight{margin-bottom:16px}html body .highlight pre,html body pre{padding:1em;overflow:auto;line-height:1.45;border:#d6d6d6;border-radius:3px}html body .highlight pre{margin-bottom:0;word-break:normal}html body pre code,html body pre tt{display:inline;max-width:initial;padding:0;margin:0;overflow:initial;line-height:inherit;word-wrap:normal;background-color:transparent;border:0}html body pre code:after,html body pre code:before,html body pre tt:after,html body pre tt:before{content:normal}html body blockquote,html body dl,html body ol,html body p,html body pre,html body ul{margin-top:0;margin-bottom:16px}html body kbd{color:#000;border:1px solid #d6d6d6;border-bottom:2px solid #c7c7c7;padding:2px 4px;background-color:#f0f0f0;border-radius:3px}@media print{html body{background-color:#fff}html body h1,html body h2,html body h3,html body h4,html body h5,html body h6{color:#000;page-break-after:avoid}html body blockquote{color:#5c5c5c}html body pre{page-break-inside:avoid}html body table{display:table}html body img{display:block;max-width:100%;max-height:100%}html body code,html body pre{word-wrap:break-word;white-space:pre}}.markdown-preview{width:100%;height:100%;box-sizing:border-box}.markdown-preview ul{list-style:disc}.markdown-preview ul ul{list-style:circle}.markdown-preview ul ul ul{list-style:square}.markdown-preview ol{list-style:decimal}.markdown-preview ol ol,.markdown-preview ul ol{list-style-type:lower-roman}.markdown-preview ol ol ol,.markdown-preview ol ul ol,.markdown-preview ul ol ol,.markdown-preview ul ul ol{list-style-type:lower-alpha}.markdown-preview .newpage,.markdown-preview .pagebreak{page-break-before:always}.markdown-preview pre.line-numbers{position:relative;padding-left:3.8em;counter-reset:linenumber}.markdown-preview pre.line-numbers>code{position:relative}.markdown-preview pre.line-numbers .line-numbers-rows{position:absolute;pointer-events:none;top:1em;font-size:100%;left:0;width:3em;letter-spacing:-1px;border-right:1px solid #999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none}.markdown-preview pre.line-numbers .line-numbers-rows>span{pointer-events:none;display:block;counter-increment:linenumber}.markdown-preview pre.line-numbers .line-numbers-rows>span:before{content:counter(linenumber);color:#999;display:block;padding-right:.8em;text-align:right}.markdown-preview .mathjax-exps .MathJax_Display{text-align:center!important}.markdown-preview:not([data-for=preview]) .code-chunk .code-chunk-btn-group{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .status{display:none}.markdown-preview:not([data-for=preview]) .code-chunk .output-div{margin-bottom:16px}.markdown-preview .md-toc{padding:0}.markdown-preview .md-toc .md-toc-details{margin:0;padding:0;border:none}.markdown-preview .md-toc summary.md-toc-link-wrapper{cursor:pointer;list-style-position:outside}.markdown-preview .md-toc summary.md-toc-link-wrapper::marker{font-size:.85em}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link div,.markdown-preview .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}.markdown-preview .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}.markdown-preview .md-toc .md-toc-link-wrapper[data-level='0']{margin-left:12px}.markdown-preview .md-toc .md-toc-link-wrapper[data-level='1']{margin-left:28px}.markdown-preview .md-toc .md-toc-link-wrapper[data-level='2']{margin-left:44px}.markdown-preview .md-toc .md-toc-link-wrapper[data-level='3']{margin-left:60px}.markdown-preview .md-toc .md-toc-link-wrapper[data-level='4']{margin-left:76px}.markdown-preview .md-toc .md-toc-link-wrapper[data-level='5']{margin-left:80px}.markdown-preview a.tag,.markdown-preview a.tag:active,.markdown-preview a.tag:link,.markdown-preview a.tag:visited,.markdown-preview span.tag:not(.token){display:inline-block;background-color:var(--vscode-badge-background,rgba(127,127,127,.18));color:var(--vscode-badge-foreground,currentColor);border-radius:2em;font-size:.85em;font-weight:500;padding:.05em .55em;line-height:1.5;white-space:nowrap;text-decoration:none;text-shadow:none;box-shadow:none;transition:background-color .12s ease,opacity .12s ease}.markdown-preview a.tag{cursor:pointer}.markdown-preview a.tag:focus,.markdown-preview a.tag:hover{background-color:var(--vscode-badge-background,rgba(127,127,127,.32));color:var(--vscode-badge-foreground,currentColor);opacity:.85;text-decoration:none;outline:0}.markdown-preview .wikilink-embed-content{border-left:3px solid var(--vscode-textBlockQuote-border,rgba(128,128,128,.3));background:var(--vscode-textBlockQuote-background,rgba(128,128,128,.05));margin:.5em 0;padding:.5em .75em;border-radius:0 3px 3px 0}.markdown-preview .wikilink-embed-content.wikilink-embed-error{border-left-color:var(--vscode-errorForeground,#cf222e);color:var(--vscode-errorForeground,#cf222e);font-style:italic;opacity:.8}.markdown-preview .wikilink-embed-content h1:first-child,.markdown-preview .wikilink-embed-content h2:first-child,.markdown-preview .wikilink-embed-content h3:first-child,.markdown-preview .wikilink-embed-content h4:first-child,.markdown-preview .wikilink-embed-content h5:first-child,.markdown-preview .wikilink-embed-content h6:first-child{margin-top:.25em}.markdown-preview .wikilink-embed-content .wikilink-embed-content{margin:.25em 0;padding:.25em .5em}.markdown-preview .block-id{display:none}.scrollbar-style::-webkit-scrollbar{width:8px}.scrollbar-style::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}.scrollbar-style::-webkit-scrollbar-thumb{border-radius:5px;background-color:var(--vscode-scrollbarSlider-background,rgba(150,150,150,.66));border:4px solid var(--vscode-scrollbarSlider-background,rgba(150,150,150,.66));background-clip:content-box}.scrollbar-style::-webkit-scrollbar-thumb:hover{background-color:var(--vscode-scrollbarSlider-hoverBackground,rgba(120,120,120,.66))}html body[for=html-export]:not([data-presentation-mode]){position:relative;width:100%;height:100%;top:0;left:0;margin:0;padding:0;overflow:auto}html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{position:relative;top:0;min-height:100vh}@media screen and (min-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em calc(50% - 457px + 2em)}}@media screen and (max-width:914px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode]) .markdown-preview{font-size:14px!important;padding:1em}}@media print{html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{display:none}}html body[for=html-export]:not([data-presentation-mode]) #sidebar-toc-btn{position:fixed;bottom:8px;left:8px;font-size:28px;cursor:pointer;color:inherit;z-index:99;width:32px;text-align:center;opacity:.4}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] #sidebar-toc-btn{opacity:1}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc{position:fixed;top:0;left:0;width:300px;height:100%;padding:32px 0 48px 0;font-size:14px;box-shadow:0 0 4px rgba(150,150,150,.33);box-sizing:border-box;overflow:auto;background-color:inherit}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar{width:8px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-track{border-radius:10px;background-color:transparent}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb{border-radius:5px;background-color:var(--vscode-scrollbarSlider-background,rgba(150,150,150,.66));border:4px solid var(--vscode-scrollbarSlider-background,rgba(150,150,150,.66));background-clip:content-box}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc::-webkit-scrollbar-thumb:hover{background-color:var(--vscode-scrollbarSlider-hoverBackground,rgba(120,120,120,.66))}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc a{text-decoration:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc{padding:0 16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-details{margin:0;padding:0;border:none}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link{display:inline;padding:.25rem 0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link div,html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper .md-toc-link p{display:inline}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper.highlighted .md-toc-link{font-weight:800}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper[data-level='0']{padding-left:0}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper[data-level='1']{padding-left:16px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper[data-level='2']{padding-left:32px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper[data-level='3']{padding-left:48px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper[data-level='4']{padding-left:64px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .md-sidebar-toc .md-toc .md-toc-link-wrapper[data-level='5']{padding-left:80px}html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{left:300px;width:calc(100% - 300px);padding:2em calc(50% - 457px - 300px / 2);margin:0;box-sizing:border-box}@media screen and (max-width:1274px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{padding:2em}}@media screen and (max-width:450px){html body[for=html-export]:not([data-presentation-mode])[html-show-sidebar-toc] .markdown-preview{width:100%}}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .markdown-preview{left:50%;transform:translateX(-50%)}html body[for=html-export]:not([data-presentation-mode]):not([html-show-sidebar-toc]) .md-sidebar-toc{display:none}
+/* Please visit the URL below for more information: */
+/*   https://shd101wyy.github.io/markdown-preview-enhanced/#/customize-css */
+
+      </style>
+      <!-- The content below will be included at the end of the <head> element. -->
+<script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
+    // your code here
+  });
+</script>
+    </head>
+    <body for="html-export">
+      <div class="crossnote markdown-preview  ">
+      
+<h1 id="laporan-hands-on-5-mutex-and-threads">Laporan Hands-On 5: Mutex and Threads </h1>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">NRP</th>
+<th style="text-align:center">Nama</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">5025251246</td>
+<td style="text-align:center">Hamizan Rifqi Afandi</td>
+</tr>
+</tbody>
+</table>
+<hr>
+<h2 id="lab-1---creating-multiple-threads-and-observing-concurrent-execution">Lab 1 - Creating Multiple Threads and Observing Concurrent Execution </h2>
+<p>Segmen ini memperkenalkan konsep dasar thread sebagai jalur eksekusi independen di dalam sebuah proses. Tujuan utamanya adalah membantu mahasiswa memahami bahwa satu program dapat memiliki beberapa alur kontrol yang tampak berjalan bersamaan, sesuai dengan perbedaan fundamental antara proses (sebagai unit pemilik sumber daya) dan thread (sebagai unit penjadwalan dan eksekusi).</p>
+<p>Program <code>lab1_basic_threads.c</code> mengimplementasikan fungsi <code>worker()</code> yang menerima ID thread sebagai argumen, lalu menjalankan loop sebanyak 5 iterasi dengan mencetak pesan "Thread X is running: step i" setiap iterasi, disertai <code>usleep(100000)</code> (100 ms) untuk memperlambat eksekusi agar efek konkurensi lebih terlihat. Di fungsi <code>main()</code>, tiga thread dibuat menggunakan <code>pthread_create()</code> dalam sebuah loop, masing-masing menjalankan fungsi <code>worker</code> dengan ID 1, 2, dan 3. Setelah semua thread dibuat, <code>pthread_join()</code> digunakan untuk menunggu setiap thread selesai sebelum program berakhir. Karena ketiga thread berbagi proses yang sama dan dijadwalkan oleh sistem operasi, urutan output tidak dapat diprediksi.</p>
+<h3 id="kesimpulan">Kesimpulan </h3>
+<p>Dengan program ini, mahasiswa dapat mengamati bahwa pesan dari ketiga thread keluar secara tercampur (interleaved) — urutannya bisa berbeda setiap kali program dijalankan. Terkadang Thread 1 mencetak lebih dulu, terkadang Thread 2 atau Thread 3. Ini menunjukkan bahwa penjadwalan thread dikendalikan oleh sistem operasi, bukan semata-mata oleh urutan kode sumber. Pemahaman ini penting karena menjadi fondasi untuk memahami konkurensi: beberapa jalur eksekusi dapat eksis di dalam satu proses, memungkinkan program melakukan banyak aktivitas secara bersamaan.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Komponen</th>
+<th style="text-align:left">Isi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Filename</td>
+<td style="text-align:left"><code>lab1_basic_threads.c</code></td>
+</tr>
+<tr>
+<td style="text-align:left">Tools</td>
+<td style="text-align:left"><code>pthread_create</code>, <code>pthread_join</code>, <code>printf</code>, <code>usleep</code>, GCC dengan flag <code>-pthread</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="snapshots-eksekusi">Snapshots Eksekusi </h3>
+<p><strong>Kompilasi dan eksekusi program dengan tiga thread konkuren:</strong><br>
+<img src="./assets/lab1_basic_threads.png" alt="lab1 basic threads"></p>
+<hr>
+<h2 id="lab-2---race-condition-on-shared-data">Lab 2 - Race Condition on Shared Data </h2>
+<p>Segmen ini mendemonstrasikan kondisi balapan (<em>race condition</em>) ketika beberapa thread mengakses dan memodifikasi variabel bersama yang sama tanpa sinkronisasi. Tujuan utamanya adalah membantu mahasiswa memahami mengapa memori bersama antara thread dalam satu proses bersifat <em>powerful but dangerous</em> — komunikasi menjadi mudah, tetapi dapat menyebabkan ketidakkonsistenan data jika tidak dikelola dengan benar.</p>
+<p>Program <code>lab2_race_condition.c</code> mendeklarasikan variabel global <code>int counter = 0</code>. Fungsi <code>increment_counter()</code> menjalankan loop sebanyak 1.000.000 iterasi, setiap iterasi melakukan operasi <code>counter++</code>. Dua thread dibuat dengan <code>pthread_create()</code>, masing-masing menjalankan fungsi <code>increment_counter()</code>. Setelah kedua thread selesai (dengan <code>pthread_join()</code>), program mencetak nilai counter yang diharapkan (2.000.000) dan nilai aktual. Operasi <code>counter++</code> terlihat sederhana, tetapi secara internal terdiri dari tiga langkah: (1) baca nilai counter dari memori ke register CPU, (2) tambah nilai register dengan 1, (3) tulis kembali nilai dari register ke memori. Jika dua thread melakukan langkah-langkah ini dalam waktu yang tumpang tindih, <em>lost update</em> dapat terjadi.</p>
+<h3 id="kesimpulan-1">Kesimpulan </h3>
+<p>Dengan menjalankan program beberapa kali, mahasiswa dapat mengamati bahwa nilai aktual counter hampir selalu kurang dari 2.000.000, dan hasilnya bervariasi antar eksekusi. Variasi ini adalah poin pembelajaran utama: <em>race condition</em> menghasilkan perilaku nondeterministik yang bergantung pada <em>timing</em> penjadwalan thread oleh sistem operasi. Program yang sama dapat menghasilkan output berbeda setiap kali dijalankan. Ini membuktikan bahwa tanpa <em>mutual exclusion</em>, operasi sederhana seperti <code>counter++</code> pun dapat menjadi tidak aman dalam lingkungan konkuren.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Komponen</th>
+<th style="text-align:left">Isi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Filename</td>
+<td style="text-align:left"><code>lab2_race_condition.c</code></td>
+</tr>
+<tr>
+<td style="text-align:left">Tools</td>
+<td style="text-align:left"><code>pthread_create</code>, <code>pthread_join</code>, <code>printf</code>, variabel global, GCC dengan flag <code>-pthread</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="snapshots-eksekusi-1">Snapshots Eksekusi </h3>
+<p><strong>Kompilasi dan eksekusi program (dijalankan beberapa kali untuk melihat variasi hasil):</strong><br>
+<img src="./assets/lab2_race_condition.png" alt="lab2 race condition"></p>
+<hr>
+<h2 id="lab-3---solving-the-race-condition-with-mutual-exclusion">Lab 3 - Solving the Race Condition with Mutual Exclusion </h2>
+<p>Segmen ini memperkenalkan <em>mutual exclusion</em> sebagai solusi untuk kondisi balapan (<em>race condition</em>) yang diamati pada Lab 2. Tujuan utamanya adalah menunjukkan bahwa dengan melindungi <em>critical section</em> (bagian kode yang mengakses data bersama), hanya satu thread yang diperbolehkan mengupdate data bersama pada satu waktu, sehingga kebenaran data dapat dipastikan.</p>
+<p>Program <code>lab3_mutex_counter.c</code> mendeklarasikan variabel global <code>int counter = 0</code> dan sebuah mutex <code>pthread_mutex_t lock</code>. Di fungsi <code>main()</code>, mutex diinisialisasi dengan <code>pthread_mutex_init(&amp;lock, NULL)</code>. Fungsi <code>increment_counter()</code> menjalankan loop sebanyak 1.000.000 iterasi, tetapi kali ini setiap iterasi membungkus operasi <code>counter++</code> dengan <code>pthread_mutex_lock(&amp;lock)</code> sebelum increment dan <code>pthread_mutex_unlock(&amp;lock)</code> sesudahnya. Ini memastikan bahwa operasi baca-modifikasi-tulis pada counter bersifat atomik dari perspektif thread lain — hanya satu thread yang boleh menjalankan <em>critical section</em> pada satu waktu. Thread lain yang mencoba mengunci mutex akan <em>blocked</em> hingga mutex tersedia. Setelah semua selesai, <code>pthread_mutex_destroy(&amp;lock)</code> membersihkan mutex.</p>
+<h3 id="kesimpulan-2">Kesimpulan </h3>
+<p>Dengan mekanisme mutex, mahasiswa dapat mengamati bahwa nilai aktual counter sekarang konsisten mencapai 2.000.000 setiap kali program dijalankan. Mutex memaksa operasi increment berperilaku seperti <em>critical section</em> yang tak terbagi (indivisible). Hasilnya menjadi stabil dan benar. Ini mengilustrasikan prinsip penting dalam sistem operasi: sumber daya bersama harus dilindungi dari akses bersamaan yang saling bertentangan. Namun, perlu dipahami bahwa ini datang dengan <em>trade-off</em> — operasi increment menjadi terserialisasi, yang berarti hanya satu thread yang dapat mengeksekusi bagian tersebut pada satu waktu.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Komponen</th>
+<th style="text-align:left">Isi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Filename</td>
+<td style="text-align:left"><code>lab3_mutex_counter.c</code></td>
+</tr>
+<tr>
+<td style="text-align:left">Tools</td>
+<td style="text-align:left"><code>pthread_mutex_t</code>, <code>pthread_mutex_init</code>, <code>pthread_mutex_lock</code>, <code>pthread_mutex_unlock</code>, <code>pthread_mutex_destroy</code>, GCC dengan flag <code>-pthread</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="snapshots-eksekusi-2">Snapshots Eksekusi </h3>
+<p><strong>Kompilasi dan eksekusi program dengan mutex (hasil konsisten dan benar):</strong><br>
+<img src="./assets/lab3_mutex_counter.png" alt="lab3 mutex counter"></p>
+<hr>
+<h2 id="lab-4---producer-consumer-using-semaphore-synchronization">Lab 4 - Producer-Consumer Using Semaphore Synchronization </h2>
+<p>Segmen ini mendemonstrasikan sinkronisasi antar thread menggunakan pola <em>producer-consumer</em>. Tujuan utamanya adalah menunjukkan bahwa sinkronisasi tidak hanya tentang melindungi data bersama, tetapi juga tentang mengkoordinasikan urutan eksekusi antar thread — <em>producer</em> harus menunggu jika buffer penuh, dan <em>consumer</em> harus menunggu jika buffer kosong.</p>
+<p>Program <code>lab4_producer_consumer.c</code> mengimplementasikan buffer bersama berukuran satu (single-slot buffer). Dua semaphore digunakan untuk koordinasi: <code>empty</code> (dengan nilai awal 1) menandakan bahwa buffer kosong dan siap diisi, sedangkan <code>full</code> (dengan nilai awal 0) menandakan bahwa buffer berisi data dan siap dikonsumsi. Sebuah mutex <code>lock</code> melindungi akses aktual ke buffer. Fungsi <code>producer()</code> memproduksi item dari 1 hingga 10, setiap kali memanggil <code>sem_wait(&amp;empty)</code> untuk menunggu buffer kosong, kemudian mengunci mutex, mengisi buffer, mencetak pesan, melepas mutex, lalu memanggil <code>sem_post(&amp;full)</code> untuk memberi tahu consumer bahwa data tersedia. Fungsi <code>consumer()</code> melakukan kebalikannya: <code>sem_wait(&amp;full)</code> untuk menunggu data tersedia, membaca buffer, lalu <code>sem_post(&amp;empty)</code> untuk memberi tahu producer bahwa buffer kosong. Kedua thread berjalan bersamaan dengan <code>sleep(1)</code> untuk memperlambat eksekusi agar lebih mudah diamati.</p>
+<h3 id="kesimpulan-3">Kesimpulan </h3>
+<p>Dengan program ini, mahasiswa dapat mengamati bahwa setiap item yang diproduksi dikonsumsi tepat satu kali, dan urutannya terjaga dengan sempurna (1 dikonsumsi setelah 1 diproduksi, 2 setelah 2, dst). Consumer tidak pernah mengonsumsi sebelum producer memproduksi, dan producer tidak pernah menimpa buffer sebelum consumer mengonsumsi item sebelumnya. Ini menunjukkan dua peran sinkronisasi yang berbeda: semaphore mengelola <em>ordering</em> dan <em>blocking</em>, sementara mutex melindungi <em>critical section</em> untuk akses buffer. Pola <em>producer-consumer</em> ini sangat umum dalam sistem nyata, seperti antrian tugas, pipa data, atau buffer jaringan.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Komponen</th>
+<th style="text-align:left">Isi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Filename</td>
+<td style="text-align:left"><code>lab4_producer_consumer.c</code></td>
+</tr>
+<tr>
+<td style="text-align:left">Tools</td>
+<td style="text-align:left"><code>sem_t</code>, <code>sem_init</code>, <code>sem_wait</code>, <code>sem_post</code>, <code>sem_destroy</code>, <code>pthread_mutex_t</code>, <code>sleep</code>, GCC dengan flag <code>-pthread</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="snapshots-eksekusi-3">Snapshots Eksekusi </h3>
+<p><strong>Kompilasi dan eksekusi program producer-consumer (sinkronasi sempurna):</strong><br>
+<img src="./assets/lab4_producer_consumer.png" alt="lab4 producer consumer"></p>
+<hr>
+<h2 id="lab-5---blocking-and-unblocking-threads-with-condition-variables">Lab 5 - Blocking and Unblocking Threads with Condition Variables </h2>
+<p>Segmen ini mendemonstrasikan perilaku <em>blocking</em> dalam sinkronisasi thread menggunakan <em>condition variables</em>. Tujuan utamanya adalah menunjukkan bagaimana sebuah thread dapat secara sukarela menunggu (<em>wait</em>) hingga suatu kondisi yang diperlukan menjadi benar, dan bagaimana thread lain dapat memberinya sinyal (<em>signal</em>) untuk melanjutkan eksekusi — tanpa perlu <em>busy waiting</em> yang membuang waktu CPU.</p>
+<p>Program <code>lab5_blocking_condition.c</code> mendeklarasikan variabel bersama <code>data_ready</code> (flag kondisi) dan <code>shared_data</code> (data yang akan dikirim), serta sebuah mutex <code>lock</code> dan condition variable <code>condition</code>. Fungsi <code>worker()</code> (thread pekerja) mengunci mutex, lalu memasuki loop <code>while (!data_ready)</code> dan memanggil <code>pthread_cond_wait(&amp;condition, &amp;lock)</code>. Panggilan ini secara atomik melepas mutex dan menempatkan thread dalam keadaan <em>blocked</em> hingga mendapatkan sinyal. Fungsi <code>controller()</code> (thread pengontrol) tidur selama 3 detik (mensimulasikan waktu persiapan data), kemudian mengunci mutex, mengisi <code>shared_data = 42</code>, men-set <code>data_ready = 1</code>, lalu memanggil <code>pthread_cond_signal(&amp;condition)</code> untuk membangunkan thread pekerja yang sedang menunggu, dan akhirnya melepas mutex. Setelah terbangun, thread pekerja melanjutkan eksekusi, mencetak data yang diterima, dan melepas mutex.</p>
+<h3 id="kesimpulan-4">Kesimpulan </h3>
+<p>Dengan program ini, mahasiswa dapat mengamati bahwa thread pekerja pertama kali mencetak "Worker: data is not ready, blocking now..." dan kemudian berhenti (<em>blocked</em>). Setelah sekitar 3 detik, thread pengontrol mencetak "Controller: data prepared, signaling worker..." dan thread pekerja terbangun lalu mencetak "Worker: awakened, received shared data = 42". Observasi pentingnya adalah bahwa thread pekerja <strong>tidak</strong> secara terus-menerus memeriksa variabel dalam loop yang membuang-buang CPU (<em>busy waiting</em>). Sebaliknya, ia masuk ke keadaan <em>blocked</em> hingga mendapatkan sinyal. Ini menghubungkan konsep <em>thread states</em> (running, ready, blocked) dari teori sistem operasi dengan implementasi konkret menggunakan condition variables — sebuah mekanisme sinkronisasi yang efisien untuk koordinasi berbasis kondisi.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Komponen</th>
+<th style="text-align:left">Isi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Filename</td>
+<td style="text-align:left"><code>lab5_blocking_condition.c</code></td>
+</tr>
+<tr>
+<td style="text-align:left">Tools</td>
+<td style="text-align:left"><code>pthread_cond_t</code>, <code>pthread_cond_init</code>, <code>pthread_cond_wait</code>, <code>pthread_cond_signal</code>, <code>pthread_cond_destroy</code>, <code>pthread_mutex_t</code>, <code>sleep</code>, GCC dengan flag <code>-pthread</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="snapshots-eksekusi-4">Snapshots Eksekusi </h3>
+<p><strong>Kompilasi dan eksekusi program dengan condition variable (blocking dan signaling):</strong><br>
+<img src="./assets/lab5_blocking_condition.png" alt="lab5 blocking condition"></p>
+<hr>
+<h2 id="lab-6---implementing-a-critical-section-with-threads-bank-account-balance">Lab 6 - Implementing a Critical Section with Threads (Bank Account Balance) </h2>
+<p>Segmen ini mengajarkan cara mengidentifikasi dan mengimplementasikan <em>critical section</em> dalam program multithread menggunakan studi kasus saldo rekening bank. Tujuan utamanya adalah membantu mahasiswa memahami bahwa <em>critical section</em> bukanlah keseluruhan program, melainkan hanya bagian kode di mana data bersama diakses dan dimodifikasi — dan bagian inilah yang harus dilindungi.</p>
+<p>Program <code>critical_section_bank.c</code> mendeklarasikan variabel global <code>int balance = 0</code> dan sebuah mutex <code>balance_lock</code>. Fungsi <code>deposit_money()</code> menerima ID thread sebagai argumen, lalu menjalankan loop sebanyak <code>DEPOSITS_PER_THREAD</code> (3 kali) dengan nilai deposit <code>DEPOSIT_AMOUNT</code> (100). Di dalam loop, <em>critical section</em> dimulai dengan <code>pthread_mutex_lock(&amp;balance_lock)</code>. Thread membaca <code>old_balance</code> saat ini, mencetaknya, kemudian <code>sleep(1)</code> sengaja ditambahkan untuk memperlambat eksekusi sehingga efek konkurensi lebih mudah diamati. Setelah itu, thread menghitung <code>balance = old_balance + DEPOSIT_AMOUNT</code>, mencetak nilai baru, lalu memanggil <code>pthread_mutex_unlock(&amp;balance_lock)</code> untuk melepas kunci. Di <code>main()</code>, 5 thread dibuat dan dijalankan secara bersamaan. Setelah semua thread selesai, program mencetak saldo akhir dan membandingkannya dengan nilai yang diharapkan (5 thread × 3 deposit × 100 = 1500).</p>
+<h3 id="kesimpulan-5">Kesimpulan </h3>
+<p>Dengan program ini, mahasiswa dapat mengamati bahwa hanya satu thread pada satu waktu yang membaca dan mengupdate saldo. Pesan seperti "Thread X reads balance: Y" dan "Thread X updates balance to: Z" muncul secara berurutan tanpa tumpang tindih antar thread. Meskipun banyak thread yang eksis, update saldo terjadi dalam urutan yang terkendali. Saldo akhir selalu mencapai 1500 — nilai yang benar. Ini mendemonstrasikan <em>mutual exclusion</em>: data bersama dilindungi sehingga eksekusi konkuren tidak menghasilkan hasil yang inkonsisten. Kasus simulasi transaksi bank ini sangat relevan dengan dunia nyata, di mana dua transaksi ATM yang bersamaan tidak boleh merusak saldo rekening.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Komponen</th>
+<th style="text-align:left">Isi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Filename</td>
+<td style="text-align:left"><code>critical_section_bank.c</code></td>
+</tr>
+<tr>
+<td style="text-align:left">Tools</td>
+<td style="text-align:left"><code>pthread_mutex_t</code>, <code>pthread_mutex_init</code>, <code>pthread_mutex_lock</code>, <code>pthread_mutex_unlock</code>, <code>pthread_mutex_destroy</code>, <code>printf</code>, <code>sleep</code>, GCC dengan flag <code>-pthread</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="snapshots-eksekusi-5">Snapshots Eksekusi </h3>
+<p><strong>Kompilasi dan eksekusi program critical section pada rekening bank:</strong><br>
+<img src="./assets/critical_section_bank.png" alt="critical section bank"></p>
+<hr>
+<h2 id="lab-7---observing-a-race-condition">Lab 7 - Observing a Race Condition </h2>
+<p>Segmen ini bertujuan untuk mendemonstrasikan bagaimana thread konkuren yang mengakses data bersama tanpa sinkronisasi dapat menghasilkan hasil yang tidak benar. Tujuan utamanya adalah membantu mahasiswa belajar mengidentifikasi <em>race condition</em> dan memahami bahwa operasi yang tampak sederhana sekalipun dapat menjadi tidak aman dalam lingkungan konkuren.</p>
+<p>Program <code>lab1_race.c</code> (dinamakan demikian dalam dokumentasi, meskipun merupakan lab ke-7 dalam urutan) mendeklarasikan variabel global <code>int counter = 0</code>. Fungsi <code>increment()</code> menjalankan loop sebanyak 1.000.000 iterasi, setiap iterasi melakukan operasi <code>counter++</code>. Dua thread dibuat dengan <code>pthread_create()</code>, masing-masing menjalankan fungsi <code>increment()</code>. Setelah kedua thread selesai (dengan <code>pthread_join()</code>), program mencetak nilai counter yang diharapkan (2.000.000) dan nilai aktual. Operasi <code>counter++</code> terlihat sederhana, tetapi di tingkat mesin terdiri dari tiga langkah: baca nilai dari memori ke register, tambah register dengan 1, tulis kembali ke memori. Tanpa perlindungan, dua thread dapat membaca nilai yang sama sebelum salah satunya menulis kembali, menyebabkan <em>lost update</em>.</p>
+<h3 id="kesimpulan-6">Kesimpulan </h3>
+<p>Dengan menjalankan program beberapa kali, mahasiswa dapat mengamati bahwa nilai aktual counter hampir selalu kurang dari 2.000.000. Bahaya dari <em>race condition</em> ini bersifat <em>subtle</em> karena kode terlihat benar secara logika — tidak ada kesalahan sintaks atau kesalahan algoritma yang jelas. Namun, karena eksekusi bersifat konkuren dan timing penjadwalan tidak dapat diprediksi, hasilnya menjadi tidak konsisten. Ini membuktikan bahwa tanpa <em>mutual exclusion</em>, program multithread dapat menghasilkan output yang berbeda setiap kali dijalankan. Kesalahan seperti ini sulit dideteksi dalam pengujian biasa karena mungkin kadang-kadang menghasilkan nilai yang benar, memberikan rasa aman palsu.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Komponen</th>
+<th style="text-align:left">Isi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Filename</td>
+<td style="text-align:left"><code>lab1_race.c</code></td>
+</tr>
+<tr>
+<td style="text-align:left">Tools</td>
+<td style="text-align:left"><code>pthread_create</code>, <code>pthread_join</code>, <code>printf</code>, variabel global, GCC dengan flag <code>-pthread</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="snapshots-eksekusi-6">Snapshots Eksekusi </h3>
+<p><strong>Kompilasi dan eksekusi program race condition (dijalankan beberapa kali):</strong><br>
+<img src="./assets/lab1_race.png" alt="lab1 race condition"></p>
+<hr>
+<h2 id="lab-8---implementing-mutual-exclusion-with-mutex">Lab 8 - Implementing Mutual Exclusion with Mutex </h2>
+<p>Segmen ini bertujuan untuk menghilangkan <em>race condition</em> dengan menerapkan <em>mutual exclusion</em> menggunakan <em>lock</em> (mutex). Tujuan utamanya adalah menunjukkan bahwa sinkronasi memastikan perilaku yang dapat diprediksi (<em>predictable behavior</em>) ketika beberapa thread mengakses data bersama, dan bahwa <em>critical section</em> harus dilindungi agar hanya satu thread yang dapat mengeksekusinya pada satu waktu.</p>
+<p>Program <code>lab2_mutex.c</code> (dinamakan demikian dalam dokumentasi, meskipun merupakan lab ke-8 dalam urutan) mendeklarasikan variabel global <code>int counter = 0</code> dan sebuah mutex <code>pthread_mutex_t lock</code>. Di fungsi <code>main()</code>, mutex diinisialisasi dengan <code>pthread_mutex_init(&amp;lock, NULL)</code>. Fungsi <code>increment()</code> menjalankan loop sebanyak 1.000.000 iterasi, dan setiap iterasi membungkus operasi <code>counter++</code> dengan <code>pthread_mutex_lock(&amp;lock)</code> sebelum increment dan <code>pthread_mutex_unlock(&amp;lock)</code> sesudahnya. Dua thread dibuat dan dijalankan secara bersamaan. Mutex bertindak seperti sebuah <em>gate</em>: thread harus mengakuisisi lock sebelum memasuki <em>critical section</em> dan melepaskannya setelah keluar. Thread yang mencoba mengunci mutex yang sedang dipegang thread lain akan <em>blocked</em> hingga mutex tersedia. Setelah semua thread selesai, <code>pthread_mutex_destroy(&amp;lock)</code> membersihkan mutex.</p>
+<h3 id="kesimpulan-7">Kesimpulan </h3>
+<p>Dengan mekanisme mutex, mahasiswa dapat mengamati bahwa nilai aktual counter sekarang selalu mencapai 2.000.000 — hasil yang benar dan konsisten setiap kali program dijalankan. Berbeda dengan Lab 7 yang hasilnya bervariasi dan tidak dapat diprediksi, Lab 8 menunjukkan bahwa sinkronisasi memastikan <em>predictable behavior</em> dalam program konkuren. Mutex tidak menghilangkan konkurensi dari keseluruhan program, tetapi hanya mengontrol akses ke bagian kritis (<em>critical section</em>) tempat data bersama dimodifikasi. Ini adalah prinsip fundamental dalam desain sistem operasi: lindungi data bersama, izinkan sisanya tetap berjalan secara konkuren.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Komponen</th>
+<th style="text-align:left">Isi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Filename</td>
+<td style="text-align:left"><code>lab2_mutex.c</code></td>
+</tr>
+<tr>
+<td style="text-align:left">Tools</td>
+<td style="text-align:left"><code>pthread_mutex_t</code>, <code>pthread_mutex_init</code>, <code>pthread_mutex_lock</code>, <code>pthread_mutex_unlock</code>, <code>pthread_mutex_destroy</code>, GCC dengan flag <code>-pthread</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="snapshots-eksekusi-7">Snapshots Eksekusi </h3>
+<p><strong>Kompilasi dan eksekusi program dengan mutex (hasil konsisten dan benar):</strong><br>
+<img src="./assets/lab2_mutex.png" alt="lab2 mutex"></p>
+<hr>
+<h2 id="lab-9---semaphore-based-mutual-exclusion">Lab 9 - Semaphore-Based Mutual Exclusion </h2>
+<p>Segmen ini mengimplementasikan <em>mutual exclusion</em> menggunakan semaphore sebagai alternatif dari mutex. Tujuan utamanya adalah menunjukkan bahwa semaphore — yang merupakan alat sinkronisasi lebih umum dalam sistem operasi — juga dapat digunakan untuk melindungi <em>critical section</em> dengan cara yang mirip dengan mutex, namun memiliki aplikasi yang lebih luas (seperti sinkronisasi producer-consumer yang telah dilihat pada Lab 4).</p>
+<p>Program <code>lab3_semaphore.c</code> mendeklarasikan variabel global <code>int counter = 0</code> dan sebuah semaphore <code>sem_t sem</code>. Di fungsi <code>main()</code>, semaphore diinisialisasi dengan <code>sem_init(&amp;sem, 0, 1)</code> — nilai awal 1 menunjukkan bahwa semaphore bersifat biner (hanya bernilai 0 atau 1) dan dalam keadaan "tidak terkunci". Fungsi <code>increment()</code> menjalankan loop sebanyak 1.000.000 iterasi. Setiap iterasi memanggil <code>sem_wait(&amp;sem)</code> yang berfungsi seperti <code>lock</code>: jika nilai semaphore &gt; 0, nilai dikurangi dan thread melanjutkan; jika nilai semaphore = 0, thread <em>blocked</em> hingga nilainya menjadi positif. Setelah operasi <code>counter++</code> selesai, <code>sem_post(&amp;sem)</code> dipanggil untuk menambah nilai semaphore (melepas kunci), memungkinkan thread lain yang menunggu untuk melanjutkan. Dua thread dibuat dan dijalankan secara bersamaan. Setelah selesai, <code>sem_destroy(&amp;sem)</code> membersihkan semaphore.</p>
+<h3 id="kesimpulan-8">Kesimpulan </h3>
+<p>Dengan program ini, mahasiswa dapat mengamati bahwa nilai akhir counter selalu mencapai 2.000.000 — hasil yang benar dan konsisten, sama seperti ketika menggunakan mutex pada Lab 8. Ini membuktikan bahwa <em>binary semaphore</em> (semaphore dengan nilai awal 1) dapat berfungsi sebagai <em>lock</em> untuk melindungi <em>critical section</em>. Perbedaan konseptualnya adalah: mutex memiliki konsep <em>ownership</em> (hanya thread yang mengunci yang boleh melepas kunci), sedangkan semaphore lebih fleksibel karena operasi <code>wait</code> dan <code>signal</code> dapat dilakukan oleh thread yang berbeda. Fleksibilitas inilah yang membuat semaphore berguna untuk pola sinkronisasi yang lebih kompleks seperti producer-consumer. Mahasiswa belajar bahwa ada lebih dari satu cara untuk mencapai <em>mutual exclusion</em> dalam sistem operasi.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Komponen</th>
+<th style="text-align:left">Isi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Filename</td>
+<td style="text-align:left"><code>lab3_semaphore.c</code></td>
+</tr>
+<tr>
+<td style="text-align:left">Tools</td>
+<td style="text-align:left"><code>sem_t</code>, <code>sem_init</code>, <code>sem_wait</code>, <code>sem_post</code>, <code>sem_destroy</code>, GCC dengan flag <code>-pthread</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="snapshots-eksekusi-8">Snapshots Eksekusi </h3>
+<p><strong>Kompilasi dan eksekusi program dengan semaphore-based mutual exclusion:</strong><br>
+<img src="./assets/lab3_semaphore.png" alt="lab3 semaphore"></p>
+<hr>
+<h2 id="lab-10---producer-consumer-synchronization">Lab 10 - Producer-Consumer Synchronization </h2>
+<p>Segmen ini mengimplementasikan koordinasi antara dua thread menggunakan pola <em>producer-consumer</em> dengan semaphore. Tujuan utamanya adalah menunjukkan bahwa sinkronisasi diperlukan tidak hanya untuk melindungi data bersama (mutual exclusion), tetapi juga untuk mengatur urutan eksekusi antar thread sehingga producer tidak menimpa data yang belum dikonsumsi dan consumer tidak membaca data dari buffer kosong.</p>
+<p>Program <code>lab4_producer_consumer.c</code> (dalam dokumentasi ini merupakan lab ke-10) mengimplementasikan buffer bersama berukuran satu. Dua semaphore digunakan: <code>empty</code> (nilai awal 1) menandakan buffer kosong dan siap diisi, <code>full</code> (nilai awal 0) menandakan buffer berisi data dan siap dikonsumsi. Sebuah mutex <code>lock</code> melindungi akses aktual ke buffer. Fungsi <code>producer()</code> memproduksi item 1 sampai 5, setiap kali memanggil <code>sem_wait(&amp;empty)</code> untuk menunggu buffer kosong, mengunci mutex, mengisi buffer, mencetak "Produced: X", melepas mutex, lalu <code>sem_post(&amp;full)</code> untuk memberi sinyal bahwa data tersedia. Fungsi <code>consumer()</code> memanggil <code>sem_wait(&amp;full)</code> untuk menunggu data tersedia, mengunci mutex, membaca buffer, mencetak "Consumed: X", melepas mutex, lalu <code>sem_post(&amp;empty)</code> untuk memberi sinyal bahwa buffer kosong. <code>sleep(1)</code> memperlambat eksekusi agar mudah diamati.</p>
+<h3 id="kesimpulan-9">Kesimpulan </h3>
+<p>Dengan program ini, mahasiswa dapat mengamati bahwa produksi dan konsumsi terjadi secara bergantian (<em>strict alternation</em>): item 1 diproduksi lalu dikonsumsi, item 2 diproduksi lalu dikonsumsi, dan seterusnya hingga item 5. Tidak pernah terjadi producer menimpa buffer sebelum item dikonsumsi, dan tidak pernah terjadi consumer membaca buffer kosong. Ini menunjukkan bahwa sinkronasi dengan semaphore mampu mengatur <em>ordering</em> (urutan) eksekusi antar thread — sebuah kebutuhan yang melampaui sekadar <em>mutual exclusion</em>. Pola producer-consumer ini sangat umum dalam sistem nyata seperti antrian tugas, pipa pemrosesan data, buffer jaringan, dan sistem antrian pesan.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Komponen</th>
+<th style="text-align:left">Isi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Filename</td>
+<td style="text-align:left"><code>lab4_producer_consumer.c</code></td>
+</tr>
+<tr>
+<td style="text-align:left">Tools</td>
+<td style="text-align:left"><code>sem_t</code>, <code>sem_init</code>, <code>sem_wait</code>, <code>sem_post</code>, <code>pthread_mutex_t</code>, <code>sleep</code>, GCC dengan flag <code>-pthread</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="snapshots-eksekusi-9">Snapshots Eksekusi </h3>
+<p><strong>Kompilasi dan eksekusi program producer-consumer:</strong><br>
+<img src="./assets/lab4_producer_consumer_2.png" alt="lab4 producer consumer 2"></p>
+<hr>
+<h2 id="lab-11---readers-writers-problem">Lab 11 - Readers-Writers Problem </h2>
+<p>Segmen ini mengeksplorasi skenario di mana beberapa <em>reader</em> dapat mengakses data secara bersamaan, tetapi <em>writer</em> memerlukan akses eksklusif. Tujuan utamanya adalah menunjukkan bahwa dalam sistem nyata (basis data, sistem file, struktur memori bersama), mengizinkan banyak pembaca secara simultan meningkatkan kinerja, namun penulis harus dilindungi agar tidak ada konflik baca/tulis atau tulis/tulis.</p>
+<p>Program <code>lab5_readers_writers.c</code> mengimplementasikan solusi untuk <em>readers-writers problem</em> menggunakan dua mutex. <code>read_count</code> menghitung berapa banyak reader yang sedang mengakses data. <code>mutex</code> melindungi akses ke variabel <code>read_count</code>. <code>write_lock</code> digunakan untuk memastikan hanya satu writer (atau tidak ada reader saat writer menulis) yang dapat mengakses data. Fungsi <code>reader()</code>: mengunci <code>mutex</code>, menambah <code>read_count</code>, jika ini adalah reader pertama (<code>read_count == 1</code>), maka ia mengunci <code>write_lock</code> (mencegah writer masuk). Setelah melepas <code>mutex</code>, reader membaca data (simulasi dengan <code>sleep(1)</code>). Kemudian reader mengunci <code>mutex</code> lagi, mengurangi <code>read_count</code>, jika ini adalah reader terakhir (<code>read_count == 0</code>), ia melepas <code>write_lock</code> (mengizinkan writer). Fungsi <code>writer()</code>: langsung mengunci <code>write_lock</code> (menunggu jika ada reader atau writer lain), menulis data (simulasi dengan <code>sleep(2)</code>), lalu melepas <code>write_lock</code>.</p>
+<h3 id="kesimpulan-10">Kesimpulan </h3>
+<p>Dengan program ini, mahasiswa dapat mengamati bahwa dua thread reader dapat berjalan secara bersamaan (konkuren), sementara writer berjalan sendirian tanpa interupsi. Dalam contoh eksekusi, kedua reader membaca secara simultan, kemudian writer menulis. Ini menunjukkan <em>controlled concurrency</em>: kebijakan sinkronasi yang berbeda diterapkan untuk tipe thread yang berbeda. <em>Readers-writers problem</em> adalah masalah klasik dalam sistem operasi yang mengajarkan bahwa sinkronisasi tidak selalu "satu ukuran untuk semua" — kebijakan dapat disesuaikan dengan kebutuhan pola akses data.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Komponen</th>
+<th style="text-align:left">Isi</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Filename</td>
+<td style="text-align:left"><code>lab5_readers_writers.c</code></td>
+</tr>
+<tr>
+<td style="text-align:left">Tools</td>
+<td style="text-align:left"><code>pthread_mutex_t</code>, <code>pthread_mutex_init</code>, <code>pthread_mutex_lock</code>, <code>pthread_mutex_unlock</code>, <code>sleep</code>, GCC dengan flag <code>-pthread</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="snapshots-eksekusi-10">Snapshots Eksekusi </h3>
+<p><strong>Kompilasi dan eksekusi program readers-writers:</strong><br>
+<img src="./assets/lab5_readers_writers.png" alt="lab5 readers writers"></p>
+
+      </div>
+      
+      
+    
+    
+    
+    
+    
+    
+  
+    </body></html>
